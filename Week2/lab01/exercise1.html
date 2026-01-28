@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+       <meta charset="utf-8">
+       <title>Exercise One</title>
+
+</head>
+
+<body>
+       <h1>Exercise One</h1>
+       <h3>See the console for output</h3>
+
+
+       <script>
+              console.log("Functions - Tip Calculator")
+              function tipCalc(total, tipPercentage){
+                     return total + (total/tipPercentage);
+              }
+              const totalAndTip = (total, tipPercentage) => total + (total/tipPercentage)
+              console.log(`Total Bill: ${totalAndTip(120, 10)}`);
+              console.log(`Total Bill: ${tipCalc(120, 10)}`);
+       </script>
+
+</body>
+
+</html>

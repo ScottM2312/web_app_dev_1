@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+       <meta charset="utf-8">
+       <title>Exercise Two</title>
+
+</head>
+
+<body>
+       <h1>Exercise Two</h1>
+       <h3>See the console for output</h3>
+
+
+       <script>
+              console.log("Control Flow - Grade Checker")
+              function gradeCheck(grade){
+                     if (grade >= 90)
+                            console.log(`${grade}: A - Excellent`);
+                     
+                     else if (grade >= 70 && grade < 90)
+                            console.log(`${grade}: B - Very Good`);
+                     
+                     else if (grade >= 55 && grade < 70)
+                            console.log(`${grade}: C - Good`);
+                     
+                     else if (grade >= 40 && grade < 55)
+                            console.log(`${grade}: D - Satisfactory but needs work`);
+                     
+                     else if (grade >= 30 && grade < 40)
+                            console.log(`${grade}: E - Work is needed to reach a Pass Grade`);
+                     
+                     else
+                            console.log(`${grade}: F - A lot of work required`)
+              }
+              let grade = prompt("Enter your grade", "");
+              const checkGrade = gradeCheck(grade);
+       </script>
+
+</body>
+
+</html>
